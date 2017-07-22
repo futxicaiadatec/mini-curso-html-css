@@ -1,0 +1,19 @@
+div.paragrafo {
+	border: 1px solid #000;
+	height: 100px;
+	width: 100%;
+	overflow: scroll;
+}
+
+div.container {
+	overflow: hidden;
+}
+
+div.exemplo {
+	background-color: #b6bbff;
+	border: 1px solid #0000FF;
+	height: 300px;
+	width: 100px;
+	margin: 2px;
+	float: left;
+}

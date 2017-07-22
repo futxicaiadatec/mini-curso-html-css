@@ -1,0 +1,19 @@
+div#um {
+	background-color: #ffb6b6;
+	height: 150px;
+	width: 150px;
+	border: 1px solid #FF0000;
+	position: absolute;
+	left: 50%;
+	margin-left: -75px;
+}
+	
+div#dois {
+	background-color: #c9ffd8;
+	height: 50px;
+	width: 50px;
+	border: 1px solid #005719;
+	position: absolute;
+	right: 2px;
+	bottom: 2px;
+}		

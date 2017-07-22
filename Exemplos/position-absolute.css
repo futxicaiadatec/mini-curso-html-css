@@ -1,0 +1,32 @@
+div#um {
+	background-color: #bfffc2;
+	border: 1px solid #060;
+	height: 250px;
+	width: 250px;
+	position: absolute;
+	left: 100px;
+	top: 10px;
+	opacity: 0.7;
+	z-index: 2;
+}
+
+div#dois {
+	background-color: #899aff;
+	border: 1px solid #009;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	left: 200px;
+	z-index: 1;
+}
+
+div#tres {
+	background-color: #fff60d;
+	border: 1px solid #6a6707;
+	height: 80px;
+	width: 80px;
+	position: fixed;
+	top: 5px;
+	right: 5px;
+}
+
