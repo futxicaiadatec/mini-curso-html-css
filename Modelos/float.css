@@ -1,0 +1,17 @@
+div.paragrafo {
+	border: 1px solid #000;
+	height: 100px;
+	width: 100%;
+}
+
+div.container {
+	
+}
+
+div.exemplo {
+	background-color: #b6bbff;
+	border: 1px solid #0000FF;
+	height: 60px;
+	width: 100px;
+	margin: 2px;
+}

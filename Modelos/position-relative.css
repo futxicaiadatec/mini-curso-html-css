@@ -1,0 +1,12 @@
+div#um {
+	background-color: #b6bbff;
+	height: 250px;
+	width: 250px;
+	border: 1px solid #0000FF;
+}    	
+div#dois {
+	background-color: #ffb6b6;
+	height: 150px;
+	width: 150px;
+	border: 1px solid #FF0000;
+}
