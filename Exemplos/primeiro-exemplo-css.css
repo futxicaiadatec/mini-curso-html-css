@@ -1,3 +1,29 @@
+.bloco-com-fundo {
+	background: transparent
+				url('imagens/flores-brancas.jpg')
+				no-repeat
+				scroll
+				3px
+				3px;
+	border: 2px solid #006600;
+	width: 500px;
+	height: 300px;
+	margin-bottom: 30px;
+}
+
+.fundo-repetindo {
+	background: transparent
+				url('imagens/bg-2.png')
+				repeat
+				scroll
+				left
+				top;
+	border: 2px solid #000000;
+	width: 500px;
+	height: 300px;
+	margin-bottom: 30px;
+}
+
 div {
 	background-color: #42f4CB;
 	color: #006600;
