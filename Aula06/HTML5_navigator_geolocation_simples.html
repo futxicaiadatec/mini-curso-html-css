@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="UTF-8" />
+        <title>Aula 5 - HTML5 - Navigator / Geolocation</title>
+
+        <style>
+			
+        </style>		
+	</head>
+	<body></body>
+	<script>
+
+		navigator.geolocation.getCurrentPosition(
+			function(pos) {
+				alert("Lat: "+pos.coords.latitude+" / "
+							+"Long: "+pos.coords.longitude);
+			}		
+		);
+		
+	</script>	
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exemplo Formulário</title>
+		<meta charset="utf-8" />
+		<style>
+			br {
+				display:  block;
+				margin:   3px 0px;
+			}
+			
+			input[type="text"] {
+				border: 1px solid #888;
+				border-radius: 4px;
+			}
+			
+			input[type="text"]:focus {
+				/*border: 2px solid #006;*/
+				box-shadow: inset 0px 0px 5px #666;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<form id="frm-add-aluno" action="dados.html" method="post">
+			<label for="txt-rga">RGA:</label>
+			<input type="text"
+				placeholder="Digite seu RGA"
+				id="txt-rga" name="txt-rga" />
+			<br />
+			<label for="txt-nome-completo">Nome Completo:</label>
+			<input type="text" id="txt-nome-completo" name="txt-nome-completo" />
+			<br />
+			<label for="psswd-senha-aluno">Senha</label>
+			<input type="password" id="psswd-senha-aluno" name="psswd-senha-aluno" />
+			<br />
+			<span>Curso:</span>
+			<br />
+			<input type="radio" id="rd-curso-si" name="rd-curso" />&nbsp;
+			<label for="rd-curso-si">Sistemas de Informação</label>
+			<br />
+			<input type="radio" id="rd-curso-co" name="rd-curso" />&nbsp;
+			<label for="rd-curso-co">Ciência da Computação</label>
+			<br>
+			Data de nascimento: <input type="date" />
+			<br />
+			Cor favorita: <input type="color" />
+			<br />
+			<p contenteditable="true">Lorem Ipsum Dolom</p>
+			<button type="submit">Cadastrar</button>
+		</form>
+	</body>
+</html>

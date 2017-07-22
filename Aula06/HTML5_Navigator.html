@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Navigator</title>
+		<meta charset="utf-8" />
+		
+		<script>
+			function pegarInfo() {
+			document
+			.getElementById("par")
+			.innerHTML="<p>Engine: "+navigator.product+"</p>"
+				+"<p>Status: "+navigator.onLine+"</p>"
+				+"<p>Idioma: "+navigator.language+"</p>"
+				+"<p>Plataforma: "+navigator.platform+"</p>";
+			}
+		</script>
+		
+	</head>
+	<body>
+		<button onclick="pegarInfo();">
+			Pegar Informações
+		</button>
+		<p id="par"></p>
+		
+	</body>
+</html>

@@ -1,0 +1,24 @@
+div#um {
+	border: 1px solid #000;
+	background-color: #060;
+	height: 100px;
+	margin: 60px;
+	width: 100px;
+	animation: gira 2s infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes gira {
+  0% {
+    transform: rotate(0deg);
+	margin-left: 60px;
+  }
+  50% {
+	  background-color: #990;
+	  margin-left: 300px;
+  }
+  100% {
+    transform: rotate(360deg);
+	margin-left: 60px;
+  }
+}

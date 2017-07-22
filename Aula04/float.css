@@ -1,0 +1,21 @@
+div.paragrafo {
+	border: 1px solid #000;
+	overflow: scroll;
+	height: 100px;
+	width: 100%;
+}
+
+div.container {
+	overflow: hidden;
+}
+
+div.exemplo {
+	border: 1px solid #0000FF;
+	height: 60px;
+	width: 100px;
+	margin: 2px;
+}
+
+div.exemplo:hover {
+	border-bottom: 2px solid #600;
+}

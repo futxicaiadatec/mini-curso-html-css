@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="UTF-8" />
+        <title>HTML5 - Navigator / Geolocation (Com Google API e Marker)</title>
+
+        <style>
+			
+        </style>		
+	</head>
+	<body>
+		<div id="googleMap" style="width:500px;height:380px;"></div>
+		<button onclick="setLocation();">Pegar Localização</button>
+	</body>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDf-CTeh86p4mO3bXTunms3tksrpv0CwYA&callback=initMap"
+	    async defer></script>
+
+	<script>
+	
+		var map=null;
+	
+		function initMap() {
+		  var mapProp = {
+			center:new google.maps.LatLng(0,0),
+			zoom:5,
+			mapTypeId:google.maps.MapTypeId.ROADMAP
+		  };
+		  map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+		}
+		//google.maps.event.addDomListener(window, 'load', initialize);
+		
+		function setLocation() {
+			if (navigator.geolocation) {
+				navigator.geolocation.getCurrentPosition(geoSuccess,geoError);
+			} else {
+				error('not supported');
+			}		
+		}
+	
+		function geoSuccess(p) {
+			map.setCenter({lat: p.coords.latitude, lng: p.coords.longitude});
+				
+			  var marker = new google.maps.Marker({
+				position: {lat: p.coords.latitude, lng: p.coords.longitude},
+				map: map,
+				title: 'Estou aqui!'
+			  });
+			  
+			  map.setZoom(17);
+			  
+		}
+		
+		function geoError() {
+			alert("erro pegando localização");
+		}		
+		
+	</script>	
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>INTRO - Manipulando DOM</title>
+		<meta charset="utf-8" />
+		<script>
+			
+			function mudarFundo() {			
+				var elem = document
+				.getElementById("paragrafo");
+				
+				var cor_fundo = document.getElementById("cor-fundo").value;
+				var cor_borda = document.getElementById("cor-borda").value;
+				
+				elem.style.borderColor     = cor_borda;
+				elem.style.backgroundColor = cor_fundo;
+			}
+			
+			function mudarBitola() {
+				var bitola = 
+				document.getElementById("range-bitola").value;
+				
+				var elem = document
+				.getElementById("paragrafo");
+				
+				elem.style.borderWidth = bitola+"px";
+				
+				
+			}
+
+			function digitou() {
+				var texto = document.getElementById("campo-texto").value;
+				alert("Você digitou: "+texto);
+			}
+			
+		</script>
+		<style>
+			/*input[type="range"] {
+				transform: rotate(90deg);
+			}*/
+		</style>
+	</head>
+	<body>
+		<input type="text" id="campo-texto" />
+		<p id="paragrafo" style="border: 1px solid #000">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies sit amet massa at feugiat. Quisque gravida, lectus non finibus tempor, velit arcu fringilla augue, nec blandit urna lectus et risus. Sed sodales, sem sed interdum iaculis, nulla risus consequat quam, malesuada congue est metus id tellus.
+		</p>
+		Selecione a cor da borda:&nbsp;
+		<input id="cor-borda" type="color" />
+		<br />
+		Selecione a cor do fundo:&nbsp;
+		<input id="cor-fundo" type="color" />
+		<br />
+		<input id="range-bitola" 
+			type="range" oninput="mudarBitola()" min="1" max="100" step="1" />
+		<br />
+		<button onclick="mudarFundo();">Mudar Cor</button>
+	</body>
+</html>
+
+
+

@@ -1,0 +1,11 @@
+#bloco-grande {
+	height: 200px;
+	width: 300px;
+}
+
+.bloco-medio {
+
+	border: 2px solid #021545;
+	height: 100px;
+	width: 200px;	
+}

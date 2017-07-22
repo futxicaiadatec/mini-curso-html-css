@@ -1,0 +1,19 @@
+div#um {
+	height: 150px;
+	width: 150px;
+	left: 50%;
+	margin-left: -75px;
+	position: absolute;
+	/*left: 40px;
+	top: 40px;*/
+}
+	
+div#dois {
+	background-color: #c9ffd8;
+	height: 50px;
+	width: 50px;
+	position: static;
+	margin: auto;
+	/*right: 0px;
+	bottom: 0px;*/
+}		

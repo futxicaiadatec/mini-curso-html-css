@@ -1,0 +1,23 @@
+div#header {
+	height: 120px;
+	width: 100%;
+	border: 1px solid #000;
+}
+
+div#footer {
+	height: 60px;
+	width: 100%;
+	border: 1px solid #000;
+}
+
+div.exemplo {
+	border: 1px solid #0000FF;
+	height: 300px;
+	width: 100px;
+	margin: 2px;
+}
+
+div.exemplo:hover {
+	border-bottom: 2px solid #600;
+	cursor: pointer;
+}
