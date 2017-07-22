@@ -9,9 +9,13 @@
 	width: 500px;
 	height: 300px;
 	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .fundo-repetindo {
+	color: #000;
+	padding: 10px 5px;
 	background: transparent
 				url('imagens/bg-2.png')
 				repeat
@@ -22,6 +26,7 @@
 	width: 500px;
 	height: 300px;
 	margin-bottom: 30px;
+	box-sizing: border-box;
 }
 
 div {

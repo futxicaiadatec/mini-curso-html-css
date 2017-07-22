@@ -1,0 +1,21 @@
+div#um {
+	background-color: #bfffc2;
+	border: 1px solid #060;
+	height: 250px;
+	width: 250px;
+}
+
+div#dois {
+	background-color: #899aff;
+	border: 1px solid #009;
+	height: 200px;
+	width: 200px;
+}
+
+div#tres {
+	background-color: #fff60d;
+	border: 1px solid #6a6707;
+	height: 80px;
+	width: 80px;
+}
+
