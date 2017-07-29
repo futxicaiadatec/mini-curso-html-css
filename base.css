@@ -1,18 +1,4 @@
-div {
-	background-color: #42f4CB;
-	color: #006600;
-	text-align: center; /* alinhamento do texto */
-}
-
-#paragrafo {
-	background-color: #CCC;
-	font-size: 16px;
-	color: #333333;
-}
-
-.texto-grande {
-	font-size: 26px;
-	border: 2px solid #000;
-	width: 400px;
-	height: 300px;
+div, p {
+	border: 1px solid #000;
+	padding: 5px;
 }

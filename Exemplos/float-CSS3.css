@@ -1,0 +1,64 @@
+div.paragrafo {
+	border: 1px solid #000;
+	height: 100px;
+	width: 100%;
+	overflow: scroll;
+	text-shadow: 1px 1px 3px #000;
+}
+
+div.container {
+	overflow: hidden;
+	background: 
+	linear-gradient(to right, 
+	#006 40%, #FF0, #FFF);
+}
+
+div.exemplo {
+	box-shadow: 3px 3px 6px #000,
+				-3px -3px 6px #600,
+				inset 0 0 10px #000;
+	border-radius: 5px;
+	background-color: #b6bbff;
+	border: 1px solid #0000FF;
+	height: 300px;
+	width: 100px;
+	margin: 20px;
+	float: left;
+	transition: background-color 1s,
+				padding 0.5s,
+			    transform 500ms;
+}
+
+div.exemplo:hover {
+	background: #060;
+	/*padding: 10px;*/
+	/*transform: rotate(15deg);*/
+	transform: scale(1.2,1.2);
+}
+
+div#um {	
+	border: 1px solid #000;
+	background-color: #060;
+	height: 100px;
+	width: 100px;
+	animation: gira 1s infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes gira {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		background-color: #FF0;
+		margin-left: 150px;
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+
+
+
+
