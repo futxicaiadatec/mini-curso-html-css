@@ -1,3 +1,5 @@
-# Exemplos de códigos em HTML, CSS e Javascript
+# Material do Mini-curso de HTML e CSS
 
-Os exemplos de códigos em HTML, CSS e Javascript são para uso didático.
+Slides e Exemplos de códigos em HTML e CSS do Projeto Futxicaiada Tecnológica.
+
+O material desse repositório é para uso didático.
