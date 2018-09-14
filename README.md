@@ -1,3 +1,3 @@
-# Exemplos de códigos em HTML, CSS e Javascript
+# Material com Slides e Exemplos de códigos em HTML e CSS do Projeto Futxicaiada Tecnológica
 
-Os exemplos de códigos em HTML, CSS e Javascript são para uso didático.
+O material desse repositório é para uso didático.
