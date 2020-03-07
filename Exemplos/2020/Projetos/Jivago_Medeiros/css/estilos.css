@@ -1,0 +1,13 @@
+.titulos { /* seletor de classe */
+
+	color: #3266a8;
+	background-color: rgba(154,197,252);
+	
+}
+
+#texto-inicial {
+	font-size: 21px;
+	color: #633575;
+	background-color: rgba(99, 53, 117, 0.6);
+	border: 2px solid #633575;
+}
