@@ -5,9 +5,14 @@
 	
 }
 
+
 #texto-inicial {
 	font-size: 21px;
-	color: #633575;
+	color: #633575 !important; /* precedência de seletores */
 	background-color: rgba(99, 53, 117, 0.6);
 	border: 2px solid #633575;
+}
+
+div {
+	color: #a1a112;
 }
