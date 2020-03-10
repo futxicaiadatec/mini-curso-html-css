@@ -10,7 +10,29 @@ img {
     padding: 5px;
     width: 150px;
   }
-
-  #describe_user{
+#describe_user{
       flex: auto;
+      border: 1px transparent #ddd;
+      border-radius: 4px;
+      padding: 5px;
+      width: 150px;
+      height: 360px;
+      background-color: dodgerblue;
   }
+
+#footer{
+      border: 1px transparent #ddd;
+      box-shadow: aqua;
+      padding: 5px;
+      width: 1340px;
+      height:20px;
+      flex-direction: row;
+      position: absolute;
+      bottom: 0;
+      background-color: aquamarine;
+  }
+
+#Grade_materias{
+    
+}
+
