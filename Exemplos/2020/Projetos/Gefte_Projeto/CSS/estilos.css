@@ -21,6 +21,7 @@ img {
   }
 
 #footer{
+      float: left;
       border: 1px transparent #ddd;
       box-shadow: aqua;
       padding: 5px;
@@ -35,4 +36,7 @@ img {
 #Grade_materias{
     
 }
-
+a{
+  width: 100px;
+  height: 20px;
+}
