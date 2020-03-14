@@ -1,0 +1,123 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Estilo geral */
+body {
+    margin: 0;
+    background: whitesmoke;
+}
+
+/* Estilo do header*/
+header {
+    padding: 10px;
+    text-align: center;
+    background: #1abc9c;
+    color: black;
+    font-size: 20px;
+}
+
+/* Estilo do menu */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  li a:hover {
+    background-color: #1abc9c;
+  }
+
+    /* Estilo do formulário */
+  form {
+    position: absolute;
+    left: 36%;
+    top: 30%;
+  }
+
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #333;
+    border-radius: 3px;
+  }
+
+  label {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+    /* Estilo da tabela */
+  
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 30%;
+  }
+
+  table, th, td {
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  th {
+    height: 50px;
+    background-color: #1abc9c;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+
+  /* Estilo do footer */
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 110%;
+    background-color: #333;
+    color: white;
+    text-align: left;
+  }
+
+  h1, p {
+    text-align: center;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .container {
+    margin: 200px;
+    margin-top: 50px;
+  }
+
+  button {
+    background-color: #333;
+    font-size: 20px;
+    padding: 10px 24px;
+    color: white;
+    position: relative;
+    left: 30%;
+  }
+
