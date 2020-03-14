@@ -1,0 +1,27 @@
+.form{
+    flex: auto;
+    background-color: bisque;
+    width: 250px;
+    
+}
+.footer{
+    float: left;
+    border: 1px transparent #ddd;
+    box-shadow: aqua;
+    padding: 5px;
+    width: 1340px;
+    height:20px;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    background-color: aquamarine;
+}
+.header{
+    text-align: center;
+    color: darkviolet;
+    background-color: aquamarine;
+}
+
+body{
+    background-color: ghostwhite;
+}

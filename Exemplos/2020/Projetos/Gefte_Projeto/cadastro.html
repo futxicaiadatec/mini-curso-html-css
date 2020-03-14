@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Cadastro de Usuários</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="CSS/forms.css" media="screen" />
+    </head>
+
+    <body>
+
+        <div class="header">
+            <h1>Cadastro</h1>
+        </div>
+
+        <form method="POST" action="recebe-dados.php">
+            <h2>Nome</h2>
+            <input type="text" name="nome" placeholder="digite seu Nome aqui">
+            <h2>Profissão</h2>
+            <input type="text" name="profissao" placeholder="Sua ocupação">
+            <h2>Idade</h2>
+            <input type="number" name="Idade" placeholder="Sua idade">
+            <h2>Materia</h2>
+            <input type="text" name="Materia" placeholder="Materia a cursar">
+
+            <input type="submit" name="enviar" value="Enviar">    
+        </form>
+
+        <div class="footer">
+           <a href="index.html">Home</a>
+        </div>
+
+    </body>
+</html>
